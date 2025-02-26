@@ -9,6 +9,7 @@ Really quick notes for my own reference so pardon the untidiness. Will occasiona
 - [r-judge](papers/r-judge.md)  **569 records of multi-turn agent interactions**, covering 27 key risk scenarios across 5 application categories and 10 risk types
 - [SafetyDetect](papers/SafetyDetect.md) dataset to detect unsafe or unsanitary conditions in a home environment
 - [SafeAgentBench](papers/SafeAgentBench.md) 750 tasks covering various hazards and task types, an embodied environment called SafeAgentEnv, and evaluation methods from both execution and semantic perspectives
+- [agent-safetybench](papers/agent-safetybench.md) 349 interactive environments and 2,000 test cases, 8 categories of risks and 10 failure modes. Shows that none of the 16 popular agents score above 60%
 
 ### Neuro-symbolic
 - [SELP](papers/SELP.md) constrained decoding with LTL to enforce constraints during planning
@@ -30,6 +31,8 @@ Really quick notes for my own reference so pardon the untidiness. Will occasiona
 
 ### Attacks
 - [llm-backdoor](papers/llm-backdoor.md) data poisoning to trigger backdoor via query / observation. Influence thoughts to use the attacker's intended tools without changing final output (will go unnoticed if only final ans is used for eval)
+- [prompt-infection](papers/prompt-infection.md) adversarial prompt injection and replication in multi-agent systems
+- [advweb](papers/advweb.md) recent paper on prompt injection on websites for VLM agents
 
 ### Conceptual
 - [swiss-cheese](papers/swiss-cheese.md) multi-layer guardrails

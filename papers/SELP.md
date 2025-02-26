@@ -29,6 +29,19 @@ These three strategies work in conjunction to enable SELP to generate safe and e
 
 ---
 
+**Why researchers made their decisions:**
+
+- Used LLMs for LTL specification generation because:
+	- Natural language commands need formal translation
+	- LTL provides a rigorous way to specify temporal constraints
+	- Multiple LTL formulas with voting increases reliability
+- Implemented constrained decoding because:
+	- Integrates safety constraints directly into the probability distribution n thus generation process
+	- Previous works (Safety Chip) reprompts LM if action is unsafe, which is not efficient
+- Added domain-specific fine-tuning because:
+	- Helps LLMs be more efficient planners on top of safety constraints
+	- Reasoning ability to solve temporal constraints learned is transferrable
+
 ## Ideas
 
 - Method seems quite general and could be evaluated on more domains or more complex scenarios

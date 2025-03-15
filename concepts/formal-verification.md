@@ -1,4 +1,0 @@
-## About
-TODO
-## Ideas
-TODO

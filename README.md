@@ -1,7 +1,14 @@
 # Brief notes on agent security
 Really quick notes for my own reference so pardon the untidiness. Will occasionally copy paste directly from the papers!
 
+---
 
+## Concepts
+- [neuro-symbolic](concepts/neuro-symbolic.md)
+
+
+
+---
 ## Paper notes
 
 ### Datasets / Benchmarks
@@ -22,6 +29,7 @@ Really quick notes for my own reference so pardon the untidiness. Will occasiona
 - [AgentMonitor](papers/AgentMonitor.md) focus on irreversible harms (Confidentiality, Integrity (modification of data), Availability (denial of service)).
 - [TrustAgent](papers/TrustAgent.md) integrates a constitution (and existing safety regulations)
 - [SafetyDetect](papers/SafetyDetect.md) shows including scene graphs can boost safety
+- [cot-monitoring](papers/cot-monitoring.md) shows first signs of scalable oversight via CoT monitoring
 
 ### Agent-based
 - [AGrail](papers/AGrail.md) integrates tool use and memory for validation

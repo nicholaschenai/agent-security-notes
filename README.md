@@ -5,6 +5,7 @@ Really quick notes for my own reference so pardon the untidiness. Will occasiona
 
 ## Concepts
 - [neuro-symbolic](concepts/neuro-symbolic.md)
+- [model-hidden-reasoning](concepts/model-hidden-reasoning.md)
 
 
 

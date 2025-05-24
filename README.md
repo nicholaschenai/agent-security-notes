@@ -49,3 +49,8 @@ Really quick notes for my own reference so pardon the untidiness. Will occasiona
 
 ### Lit review
 - [bluesky](papers/bluesky.md) review of neuro-symbolic AI in Constrained Task Planning for Humanoid Assistive Robots
+
+---
+
+## Other Resources
+- https://github.com/AI-secure UIUC research group

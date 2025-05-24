@@ -1,12 +1,12 @@
 ---
-date: "2025-02-26"
-time: "21:30"
+date: 2025-02-26
+time: 21:30
 author: 
-title: 
-created-date: "2025-02-26"
+title: "Agent-SafetyBench: Evaluating the Safety of LLM Agents"
+created-date: 2025-02-26
 tags: 
-paper: 
-code: 
+paper: https://arxiv.org/abs/2412.14470
+code: https://github.com/thu-coai/Agent-SafetyBench
 zks-type: lit
 ---
 ==draft mode. LM summary==

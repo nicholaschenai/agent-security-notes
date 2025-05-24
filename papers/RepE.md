@@ -13,8 +13,8 @@ tags:
   - cognitive-neuroscience
 time: 17:12
 created-date: 2025-03-21
-paper: 
-code: 
+paper: https://arxiv.org/abs/2310.01405
+code: https://github.com/andyzoujm/representation-engineering
 zks-type: lit
 ---
 ==draft, LM summary==
@@ -39,9 +39,9 @@ zks-type: lit
 - **Generalization**: Faithfulness directions generalized across diverse tasks (e.g., fact-checking, ethical reasoning)
 ## How it compares to previous work
 
-- Stronger focus on the emergent phenomena (sees cognition as a product of representational spaces implemented by patterns of activity across populations of neurons)
-- Previous interpretability efforts largely centered around mechanistic interpretability, which aligns with the "Sherringtonian view" in cognitive neuroscience that sees cognition as the outcome of node-to-node connections implemented by neurons in circuits. 
-- The paper argues that as AI systems become increasingly capable, analyzing them at the representation level rather than the neuron level can yield more valuable insights. 
+- Focus on the emergent phenomena: sees cognition as a product of representational spaces implemented by patterns of activity across populations of neurons
+	- Previous interpretability efforts largely centered around mechanistic interpretability, which sees cognition as the outcome of node-to-node connections implemented by neurons in circuits.
+	- Need to analyze at the right scale of emergence!
 - Compared to previous activation engineering methods that apply activation vectors to frozen models, RepE aims to uncover insights from both reading and control experiments and introduces representation tuning methods that can be merged into the model with no additional inference overhead 
 - The authors position RepE as a complementary approach to mechanistic interpretability, suggesting that both top-down and bottom-up transparency research have important roles to play in developing a comprehensive understanding of AI systems.
 

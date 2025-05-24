@@ -5,7 +5,7 @@ author:
 title: "TESTING LANGUAGE MODEL\r AGENTS SAFELY IN THE WILD"
 created-date: 2025-02-26
 tags: 
-paper: 
+paper: https://arxiv.org/abs/2311.10538
 code: 
 zks-type: lit
 ---

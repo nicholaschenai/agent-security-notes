@@ -2,7 +2,7 @@
 date: 2025-02-26
 time: 16:39
 author: 
-title: 
+title: "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents"
 created-date: 2025-02-26
 tags: 
 paper: https://arxiv.org/pdf/2401.10019

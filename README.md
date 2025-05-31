@@ -31,6 +31,7 @@ Really quick notes for my own reference so pardon the untidiness. Will occasiona
 - [TrustAgent](papers/TrustAgent.md) integrates a constitution (and existing safety regulations)
 - [SafetyDetect](papers/SafetyDetect.md) shows including scene graphs can boost safety
 - [cot-monitoring](papers/cot-monitoring.md) shows first signs of scalable oversight via CoT monitoring
+- [ai-control](papers/ai-control.md) Policies for CoT monitoring wrt finite monitoring budget
 
 ### Agent-based
 - [AGrail](papers/AGrail.md) integrates tool use and memory for validation

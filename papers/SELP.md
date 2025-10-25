@@ -120,9 +120,14 @@ shows that equivalence voting works
 
 ![](assets/Pasted%20image%2020251012151411.png)
 - in general, finetuning and constrained decoding helps. constrained decoding usually causes a slightly longer execution/planning time, but increases the safety and completion rates by a lot
+- without FT: 
+	- drone nav underperforms Safety-Chip while tapletop manip outperforms Safety-Chip. 
+	- so constrained decoding might cause drop in performance in some areas!
+		- interpretation: since constrained decoding guarantees conformity to constraints, the errors must come from translation from NL to LTL
+		- therefore, Safety-Chip re-prompting might harness LM reasoning to recognize its own translation errors as well?
 ## Ideas
 - Constrained decoding seems to be done for single path? what if theres a shorter path? need some sampling from beginning
 - Method seems quite general and could be evaluated on more domains or more complex scenarios
 - Might benefit from hierarchical planning
-- Understand better what causes the unsafe plans (1-SF)
+- Understand better what causes the unsafe plans (1-SF), i.e. failure modes of translation from NL to LTL and which types of cases are more likely to have such errors
 
